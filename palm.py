@@ -13,7 +13,7 @@ def to_markdown(text):
 
 
 
-genai.configure(api_key="AIzaSyCzLk7mX5JdNa9QaPMoMV64lwLLFdV0TMY")
+genai.configure(api_key="Your API Key")
 
 # for m in genai.list_models():
 #   if 'generateContent' in m.supported_generation_methods:
