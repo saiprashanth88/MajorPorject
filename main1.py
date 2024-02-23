@@ -27,7 +27,7 @@ gen_kwargs = {"max_length": max_length, "num_beams": num_beams}
 def to_markdown(text):
   text = text.replace('•', '  *')
   return Markdown(textwrap.indent(text, '> ', predicate=lambda _: True))
-genai.configure(api_key="AIzaSyCzLk7mX5JdNa9QaPMoMV64lwLLFdV0TMY")
+genai.configure(api_key="Your API KEY")
 
 def image():
     try:
